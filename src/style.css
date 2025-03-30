@@ -21,12 +21,32 @@
 .actionsEat img{
   width: 50px;
   height: 50px;
-  border: solid transparent 1px;
+  border: solid green 2px;
   border-radius: 50px;
   box-sizing: border-box;
-  background-color: white;
+  
+  filter: invert(29%) sepia(95%) saturate(410%) hue-rotate(60deg) brightness(90%) contrast(100%);
+  
+}
+.eatTextBar{
+  display: flex;
+  color: green;
+  margin: 0 15px;
+  font-size: 1.2rem;
   
   
+}
+
+#progressEat{
+  margin: 0 15px;
+  width: 80%;
+  border: 7px solid black;
+  border-radius: 20px;
+  background-color: black;
+
+}
+#progressEat::-moz-progress-bar{
+  background-color: red;
 }
 
 /*----------------PLAY-------------------------*/

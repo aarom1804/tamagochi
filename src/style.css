@@ -48,6 +48,8 @@
   font-size: 1.2rem;
 }
 .textEat{
+  display: flex;
+  align-items: start;
   margin: 20px;
   color: green;
   font-size: 3rem;
@@ -85,7 +87,7 @@ appearance: none;
 background-color: black;
 }
 #progressPlay::-webkit-progress-value {
-background-color: green;
+background-color: yellow;
 border-radius: 20px;
 }
 /*
@@ -151,6 +153,8 @@ color: rosybrown;
 font-size: 1.2rem;
 }
 .textFight{
+  display: flex;
+  align-items: start;
 margin: 20px;
 color: rosybrown;
 font-size: 3rem;
@@ -188,7 +192,7 @@ appearance: none;
 background-color: black;
 }
 #progressSleep::-webkit-progress-value {
-background-color: red;
+background-color: cyan;
 border-radius: 20px;
 }
 /*

@@ -1,9 +1,10 @@
+body{
+  margin: 0;
+}
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  width: 98vw;
-  height: 97vh;
 }
 /*----------------EAT-------------------------*/
 .eat{
@@ -59,7 +60,6 @@
 .play{
   background-color: yellow;
 }
-
 .actionsPlay{
   display: flex;
 width: 300px;
@@ -73,7 +73,6 @@ border: solid green 2px;
 border-radius: 50px;
 box-sizing: border-box;  
 filter: invert(100%) sepia(100%) saturate(700%) hue-rotate(13deg) brightness(95%) contrast(100%);
-
 }
 #progressPlay{
 margin: 0 15px;
@@ -107,13 +106,11 @@ color: yellowgreen;
 font-size: 3rem;
 }
 
-
 /*----------------FIGHT-------------------------*/
 
 .fight{
   background-color:indianred;
 }
-
 .actionsFight{
   display: flex;
 width: 300px;
@@ -165,7 +162,6 @@ font-size: 3rem;
 .sleep{
   background-color: cyan;
 }
-
 .actionsSleep{
   display: flex;
 width: 300px;
@@ -212,3 +208,47 @@ color: darkseagreen;
 font-size: 3rem;
 }
 
+/*---------------DOG----------------------*/
+
+.personaje{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px white solid;
+  border-radius: 50px;
+  padding: 10px;
+}
+.personajeNombre p{
+margin: 20px;
+color: black;
+font-size: 3rem;
+}
+.personajeAvatar img{
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box; 
+  }
+
+  #progressPersonaje{
+margin: 0 15px;
+width: 80%;
+border: 5px solid black;
+border-radius: 20px;
+background-color: black;
+appearance: none; 
+}
+#progressPersonaje::-webkit-progress-bar {
+background-color: black;
+}
+#progressPersonaje::-webkit-progress-value {
+background-color: cyan;
+border-radius: 20px;
+}
+.personajeTextBar p{
+  margin: 0px 15px;
+  color:black;
+  font-size: 1.2rem;
+  }
